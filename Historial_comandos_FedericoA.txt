@@ -1,0 +1,73 @@
+sudo mkdir -p /mnt/cdrom
+sudo mount /dev/cdrom /mnt/cdrom
+sudo /mnt/cdrom/VBoxLinuxAdditions.run
+sudo install bzip2
+sudo apt install bzip2
+sudo /mnt/cdrom/VBoxLinuxAdditions.run
+sudo reboot
+cat $HOME/.ssh/*.pub~
+cat home/.ssh/*.pub~
+cat Home/.ssh/*.pub~
+ls
+cd
+ls
+cat $HOME/.ssh/*.pub~
+cat Home/.ssh/*.pub~
+cat .ssh/*.pub~
+cat $HOME/.ssh/*.pub
+mkdir repogit
+cd repogit
+git clone https://github.com/fedealt32/TP_AySO.git
+sudo apt install git
+git clone https://github.com/fedealt32/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i  Home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+git add. .
+git add .
+git config --global user.email "fedealt32@gmail.com"
+git config --global user.name "Federico Altamirano"
+git commit -m "ADD: agregado 1er
+ejercicio sobre datos_usuarios.txt"
+git status
+git psuh
+git push
+git remote set-url origin git@github.com:fedealt32/TP_AySO.git
+git push
+git remote set-url origin [https://github.com/fedealt32/TP_AySO.git](https://github.com/fedealt32/TP_AySO.git)
+git remote set-url origin https://github.com/fedealt32/TP_AySO.git https://github.com/fedealt32/TP_AySO.git
+git remote set-url origin [https://github.com/fedealt32/TP_AySO.git] https://github.com/fedealt32/TP_AySO.git
+git remote set-url origin https://github.com/fedealt32/TP_AySO.git
+git push
+grep
+tail -n1
+git add datos_usuarios.txt
+history
+git add datos_usuario.txt
+cd repogit
+ls
+cd TP_AySO/
+git add datos_usuario.txt
+git commmit -m "feat: Añadiendo informacion de CPU"
+git commit -m "feat: Añadiendo informacion de CPU"
+cat <<EOF >> README.md
+Alumno: Federico Altamirano
+Division: 311 Turno: Noche
+EOF
+
+git add README.md datos_usuarios.txt
+git add README.md datos_usuario.txt
+git commit -m "ADD:Añadiendo Readme y datos de usuario"
+git push
+gitpush
+git push
+history -a
+cd
+history -a
